@@ -5,7 +5,7 @@ import pygame
 from pygame.locals import *
 
 # Global Variables for the game
-FPS = 32
+FPS = 40
 SCREENWIDTH = 289
 SCREENHEIGHT = 511
 SCREEN = pygame.display.set_mode((SCREENWIDTH, SCREENHEIGHT))
@@ -192,7 +192,7 @@ if __name__ == "__main__":
     # This will be the main point from where our game will start
     pygame.init()  # Initialize all pygame's modules
     FPSCLOCK = pygame.time.Clock()
-    pygame.display.set_caption('Flappy Bird by CodeWithHarry')
+    pygame.display.set_caption('Flappy Bird by Naveen')
     GAME_SPRITES['numbers'] = (
         pygame.image.load('gallery/sprites/0.png').convert_alpha(),
         pygame.image.load('gallery/sprites/1.png').convert_alpha(),
